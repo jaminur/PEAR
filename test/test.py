@@ -61,7 +61,7 @@ def find_accuracy(fn_truth, fn_assemby, name, method = "panda", printnice = True
 		numassebled = 1
 	
 	if printnice:
-		print("Assebly method:" + method)
+		print("Assembly method:" + method)
 		print("Total seqs:" + repr(numseqs))
 		print("Assembled seqs:" + repr(numassebled))
 		print("Corrected seqs:" + repr(numcorrect))
